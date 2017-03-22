@@ -1,6 +1,9 @@
 var express = require('express'),
     server = express.createServer();
 
+var app = require('express')();
+var http = require('http').Server(server);
+
 server.use('/frameworks', express.static(__dirname + '/frameworks') );
 server.use('/src', express.static(__dirname + '/src') );
 server.use('/res', express.static(__dirname + '/res') );
