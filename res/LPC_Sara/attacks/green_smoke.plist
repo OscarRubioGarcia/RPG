@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>green_smoke_01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,48},{6,6}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{6,6}}</string>
+				<key>sourceSize</key>
+				<string>{6,6}</string>
+			</dict>
+
+			<key>green_smoke_02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{32,29},{9,10}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{9,10}}</string>
+				<key>sourceSize</key>
+				<string>{9,10}</string>
+			</dict>
+
+			<key>green_smoke_03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{17,31},{14,14}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{14,14}}</string>
+				<key>sourceSize</key>
+				<string>{14,14}</string>
+			</dict>
+
+			<key>green_smoke_04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,31},{16,16}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{16,16}}</string>
+				<key>sourceSize</key>
+				<string>{16,16}</string>
+			</dict>
+
+			<key>green_smoke_05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{29,0},{25,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{1,5},{25,28}}</string>
+				<key>sourceSize</key>
+				<string>{29,34}</string>
+			</dict>
+
+			<key>green_smoke_06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{28,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,4},{28,30}}</string>
+				<key>sourceSize</key>
+				<string>{29,36}</string>
+			</dict>
+
+		</dict>
+
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>size</key>
+			<string>{55,55}</string>
+			<key>textureFileName</key>
+			<string>green_smoke.png</string>
+			</dict>
+		</dict>
+</plist>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="16" tileheight="16" nextobjectid="59">
+ <tileset firstgid="1" name="grass" tilewidth="16" tileheight="16" tilecount="72" columns="6">
+  <image source="LPC Base Assets/tiles/grass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="73" name="barrel" tilewidth="16" tileheight="16" tilecount="32" columns="8">
+  <image source="LPC Base Assets/tiles/barrel.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="105" name="castlefloors" tilewidth="16" tileheight="16" tilecount="400" columns="20">
+  <image source="LPC Base Assets/tiles/castlefloors.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="505" name="bridges" tilewidth="16" tileheight="16" tilecount="168" columns="12">
+  <image source="LPC Base Assets/tiles/bridges.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="673" name="dirt" tilewidth="16" tileheight="16" tilecount="72" columns="6">
+  <image source="LPC Base Assets/tiles/dirt.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="745" name="water" tilewidth="16" tileheight="16" tilecount="72" columns="6">
+  <image source="LPC Base Assets/tiles/water.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="817" name="waterfall" tilewidth="16" tileheight="16" tilecount="60" columns="6">
+  <image source="LPC Base Assets/tiles/waterfall.png" width="96" height="160"/>
+ </tileset>
+ <layer name="Terreno Base Grass" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt0bsRwlAUQ8HXmPkZA/1XhBpwdBONZwMlCs9ua61bds8e2TN7ZdtF/z17Z0f2yb7Z78J/W3++fCd/W3++fPny5cu3oT9fvpO/rT9fvnz58uXb0J8v38nf1p8vX758+fJt6M+X7+Rv68+XL1++fPk29OfLd/K39efLly9fvnwb+vPlO/nb+vPly5fv2f8HZaqnVg==
+  </data>
+ </layer>
+ <layer name="Terreno Base Desierto" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztmksOwjAMRFHuf0m6iY+BsqhkDeMWxAL8ykgRAja82vGX2+2vv35P9/H62ca3f+3nmuO1Q+HdOc4OjTdODon36L5OIK/e0XyIvJuwBty+O+9V7Jt9OpKNMy8lJ03Dq3z62lmZZRb2JOXgHJeyP+cTQN58j/UOX8GfM7Pmqs5y8bnKxRRed3dd7UzizXwufgWEV3OQMoexd2e5fKS1c8jz6Cxl2+sM1xNSeZWZzhvD56nurEuZ9y6809i4u6p4pXMPMm9+P+W77qr6fdcfUni38RyXcz9E49UeyTETesGlao5B5dXehzy7WnLzZ+rsaklrZe15ifsjjcX0/YKykvcLU2xJ3w9qLNZ6mcg7DSuZt2Il+rPWz9UMi8p7hXykvBqzqbwuPunMozvzO7yEHtjtQV2fT5npVPsj4qx9qaqltK4m8TofrnYM3eXmGG7mTuM92qdoPOusbFe9y463u42P6qvMm32gs6p9iqslKbzVPqWadXSW24mFfEbKSTpndr0haUeoflvVl/vpLrfnVftS/ov0iR4ybnwc
+  </data>
+ </layer>
+ <layer name="Terreno Base Rio" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2k0KgzAUxPGAB6ibeoPWtn6k9z+d40LIvhRx/jPw9v5IJC9PS7lG3l0pN1Wv+nRnP83/03q/EO9D9QR5J9UM8tL2M807ql4Qb5VxUa0gL2k/x+sdspfQP8frndrcFyje475A8dL2M9VLO38JXtr9t+b+ax3a+0vztvNnyvlLnT9T1pfkpa1vvN4heynnEanfyPdu79C8tP4qXu/E6514vdPOnyneY/5M8ZL+j833bu/E6x2alzavo60v0Zt+0je7964afuwnNw4cIr8=
+  </data>
+ </layer>
+ <layer name="Decorado Rio" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt27sKAjEQQNFAagUfoP//paZzWbCx0rvnVgmkGc6w3Y7x+93mGPf5vl/W+To/v//3Tmu282a+xzo/w/MezXc/b913v898W/HlW4ov31J8+Zbiy7cUX76l+PItxZdvKb58S/HlW4ov31J8+Zbiy7cUX76l+PItxZdvqSP6bqv7+n/hWL71eX2v2r72+ft9fgE7mxP7
+  </data>
+ </layer>
+ <layer name="Arboles Y Decorado" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztm2dvwyAQht29997pnune7f//XX2tFgm5iQ3muDtaXun5kiDEAw42Vm6jKIpNsAW2hfEZg2tb024H7II90AH74EAYnzG4tjXtDsEROAYn4BScCeMzBte2pt05uACX4Ap0re+uhegSt7V9bsBtZX1NH49CPBC3tefE+Nrraz5/Au8CvBG2vf9ZR9urn2/5eerp55V9s2+KkfAdAINEfflGwncMjBP15Zt8Pev0HQLDYASMBvSTiu8EmARTYDqgHwpfqrmvyxyYBwtgMaAfCl+qua/LClgFa2A9oB8KX6q55wiFL9Xcc0TzfhXjuUSzb4znEk5fjn28KZy+HPt4Uzh9NezjnL4a9nHN+1WMZF93X8lze9uE+Eqe29uG+nqeAbMRxknVL7XvElgmGFesfvN+lX2zb7rJvvy+nOdEDb6c50QNvpznRA2+nOdEDb6cyb6//59j/08p9VCtb91ZONaZqU2ofM1ZuNd9NNaZqU0of78a3rc2hdJXw/vWplD6ctxHQ/eC1O5HoXtBar6hyb68vtzvsKV9ud9h/7fnydLLdX3L2gbpWpVQOn18e9VrSNepUGE7VX3NPEjXqFDiUr/w16hez3fFd22DT21IShivsgblGbyA18KvNiQljNcH+ARf8vrkmg==
+  </data>
+ </layer>
+ <layer name="Barriles" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt1DsOg1AQQ1E2SFKQhCK/Ih/2v4O4RBRUPBtl7pHce6SZ6ToAAAAAgFOvHJRjuojJWbkoY7qIyV15KM90EZOP8lWmdBEAAAAAmxuUU7qE0VW5pUsYvZR3uoSBe4/Td7Pc49Z90nez3OPWffZ2N3vr00L6ptzSN+VWYYcBrKvw5+czVvjz8xkr/PkKMwIAAAD4Dz+fIBM8
+  </data>
+ </layer>
+ <layer name="Puente" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztz7sOglAARMEbWgXtFLETH52C/P+3sYmdvTG5mUlOv1sKAAAAAAB8bJpStqlNXdqlffPvVb9zyLdj6tMpDelc8d9Lvo3pmm7pnh4V/33m2ytNaU7vtFT8FwAAAAAAAAC+rU8LAyU=
+  </data>
+ </layer>
+ <layer name="Rocas y Decorado Desierto" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2kdOA0EQQNGR738JTM45Z7BNzjkchr+xxMoCUbSL4T/pb7yY7rLUmrE1VSVJkqSvGGxU1RAN00ij37v5fePMOEGTNJVw3gH21Azc1yzXmqN5Wkg47yh7Ggvc1zLXWqFVWks4ryRJ0l+yzvPUBm3SFm3TTo2fsXaZbY/26YAOqVXjedvM1qEjOqYTOi047zRrzRRc74y1zumCLumKroPX7zXTIp8vFZz3hrVu6Y7u6YEeg9cvPVMvT+zjmV7old7oPcneIkX/Z5Bd9H8GkvQfeK/QT5R+Ru+3z8+zJc9Ohu+55NnJ9LtBkhQnw/2sJO9n3+N7SPXUPffZ30OK0j33vockSVJ+H8RSTdc=
+  </data>
+ </layer>
+ <objectgroup name="SpawnersBosque">
+  <object id="51" name="Bosque1" x="100" y="112" width="296" height="340"/>
+  <object id="52" name="Bosque2" x="494" y="110" width="162" height="240"/>
+  <object id="53" name="Bosque3" x="384" y="582" width="270" height="278"/>
+ </objectgroup>
+ <objectgroup name="SpawnersDesierto">
+  <object id="54" name="Desierto1" x="748" y="84" width="124" height="788"/>
+ </objectgroup>
+ <objectgroup name="SpawnersPuente">
+  <object id="55" name="Puente1" x="650" y="376" width="104" height="50"/>
+ </objectgroup>
+ <objectgroup name="Limites">
+  <object id="17" x="670.75" y="367.5">
+   <polyline points="0,0 65.25,-0.25 65.25,-287.5 5.25,-288.5 0.25,-2.5"/>
+  </object>
+  <object id="18" x="84" y="861">
+   <polyline points="0,0 12,16 778.667,16.3333 796.667,0.333333 794,-767 778,-782 15.3333,-779.667 -2.66667,-763 -1.5,0"/>
+  </object>
+  <object id="32" x="160.667" y="487.333">
+   <polyline points="0,0 30,0 30,36.6667 0,37.3333 0,0"/>
+  </object>
+  <object id="33" x="128.667" y="539.333">
+   <polyline points="0,0 28.6667,0 29.3333,34.6667 -0.666667,34.6667 -0.666667,0.666667"/>
+  </object>
+  <object id="34" x="192" y="553.333">
+   <polyline points="0,0 28.6667,0 29.3333,37.3333 2,38 0.666667,1.33333"/>
+  </object>
+  <object id="35" x="146" y="600">
+   <polyline points="0,0 27.3333,0 28,38 -2.66667,39.3333 -0.666667,2"/>
+  </object>
+  <object id="36" x="384" y="714.667">
+   <polyline points="0,0 28.6667,-1.33333 30.6667,33.3333 3.33333,34.6667 -0.666667,1.33333"/>
+  </object>
+  <object id="37" x="432.667" y="695.333">
+   <polyline points="0,0 26.6667,1.33333 30,40 0.666667,38.6667 -1.33333,1.33333"/>
+  </object>
+  <object id="38" x="576.667" y="536.667">
+   <polyline points="0,0 29.3333,2 30,34.6667 15.3333,40.6667 -1.33333,34.6667 0.666667,3.33333"/>
+  </object>
+  <object id="39" x="416" y="271.333">
+   <polyline points="0,0 0,-34.6667 20,-36.6667 21.3333,-47.3333 47.3333,-46.6667 48,-13.3333 42,9.33333 26.6667,16 0,2"/>
+  </object>
+  <object id="40" x="672" y="422">
+   <polyline points="0,0 66,-2 68,454 -3,455 -2,1"/>
+  </object>
+ </objectgroup>
+</map>

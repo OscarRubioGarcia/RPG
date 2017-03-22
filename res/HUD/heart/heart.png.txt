@@ -1,0 +1,1 @@
+heart_01.png.png 4 2, heart_02.png.png 25 5, heart_03.png.png 40 8, heart_04.png.png 51 6, heart_05.png.png 3 21, heart_06.png.png 11 21, heart_07.png.png 22 24, heart_08.png.png 28 24, heart_09.png.png 51 25, heart_10.png.png 59 24.

@@ -1,0 +1,44 @@
+ // Crear animación - ataque 71
+    var framesAnimacion = [];
+    for (var i = 1; i <= 9; i++) {
+        var str = "00" + i + ".png";
+        var frame = cc.spriteFrameCache.getSpriteFrame(str);
+        framesAnimacion.push(frame);
+    }
+    for (var i = 0; i <= 9; i++) {
+        var str = "01" + i + ".png";
+        var frame = cc.spriteFrameCache.getSpriteFrame(str);
+        framesAnimacion.push(frame);
+    }
+    for (var i = 0; i <= 9; i++) {
+        var str = "02" + i + ".png";
+        var frame = cc.spriteFrameCache.getSpriteFrame(str);
+        framesAnimacion.push(frame);
+    }
+    for (var i = 0; i <= 9; i++) {
+        var str = "03" + i + ".png";
+        var frame = cc.spriteFrameCache.getSpriteFrame(str);
+        framesAnimacion.push(frame);
+    }
+    for (var i = 0; i <= 9; i++) {
+        var str = "04" + i + ".png";
+        var frame = cc.spriteFrameCache.getSpriteFrame(str);
+        framesAnimacion.push(frame);
+    }
+    for (var i = 0; i <= 9; i++) {
+        var str = "05" + i + ".png";
+        var frame = cc.spriteFrameCache.getSpriteFrame(str);
+        framesAnimacion.push(frame);
+    }
+    for (var i = 0; i <= 9; i++) {
+        var str = "06" + i + ".png";
+        var frame = cc.spriteFrameCache.getSpriteFrame(str);
+        framesAnimacion.push(frame);
+    }
+    for (var i = 0; i <= 1; i++) {
+        var str = "07" + i + ".png";
+        var frame = cc.spriteFrameCache.getSpriteFrame(str);
+        framesAnimacion.push(frame);
+    }
+    var animacion = new cc.Animation(framesAnimacion, 0.05);
+    this.animacionUltima =  new cc.Animate(animacion);

@@ -1,0 +1,24 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 1,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d","chipmunk"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/app.js",
+        "src/GameScene.js",
+        "src/Caballero.js",
+        "src/BattleScene.js",
+        "src/Global.js",
+        "src/HUDLayer.js",
+        "src/EnemigoBosque.js",
+        "src/Caballero_Batalla.js"
+    ]
+}

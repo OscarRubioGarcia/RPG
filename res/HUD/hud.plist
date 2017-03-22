@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>player_attack.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{65,0},{38,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{38,32}}</string>
+				<key>sourceSize</key>
+				<string>{38,32}</string>
+			</dict>
+
+			<key>player_back.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,50},{40,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{40,40}}</string>
+				<key>sourceSize</key>
+				<string>{40,40}</string>
+			</dict>
+
+			<key>player_hud.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{64,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{64,32}}</string>
+				<key>sourceSize</key>
+				<string>{64,32}</string>
+			</dict>
+
+			<key>player_item.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{80,33},{32,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{32,32}}</string>
+				<key>sourceSize</key>
+				<string>{32,32}</string>
+			</dict>
+
+			<key>player_magic.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{41,50},{38,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{38,32}}</string>
+				<key>sourceSize</key>
+				<string>{38,32}</string>
+			</dict>
+
+			<key>player_start.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,33},{44,16}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{44,16}}</string>
+				<key>sourceSize</key>
+				<string>{44,16}</string>
+			</dict>
+
+		</dict>
+
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>size</key>
+			<string>{113,91}</string>
+			<key>textureFileName</key>
+			<string>hud.png</string>
+			</dict>
+		</dict>
+</plist>
