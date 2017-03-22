@@ -1,5 +1,5 @@
-var express = require('express');
-var app = express();
+var express = require('express'),
+    server = express.createServer();
 
 app.use('/frameworks', express.static(__dirname + '/frameworks') );
 app.use('/src', express.static(__dirname + '/src') );
