@@ -1,7 +1,6 @@
 var express = require('express'),
     server = express.createServer();
 
-var app = require('express')();
 var http = require('http').Server(server);
 
 server.use('/frameworks', express.static(__dirname + '/frameworks') );
