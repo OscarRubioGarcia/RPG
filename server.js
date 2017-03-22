@@ -8,7 +8,7 @@ server.use('/main.js', express.static(__dirname + '/main.js') );
 server.use('/project.json', express.static(__dirname + '/project.json') );
 
 server.get('/', function(req,res){
-    res.sendfile('index.html');
+    res.sendfile(__dirname + '/index.html');
     console.log('Sent index.html');
 });
 
